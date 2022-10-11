@@ -233,6 +233,16 @@ footer {
   list-style-type: none;
 }
 
+.socialIcons {
+  color: #88abb0;
+  font-size: 1.5rem;
+  padding-left: .3rem;
+}
+
+.socialIcons:hover {
+  color: #6da8da;
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .side-border {
