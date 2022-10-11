@@ -68,7 +68,7 @@ function getValues() {
     let className = "fbArray";
     let templateRows = "";
   
-    //checking to see if the remainder of the number is equal to 0.
+    
     for (let i = 0; i < fbArray.length; i++) {
       let number = fbArray[i];
     
