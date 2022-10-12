@@ -65,12 +65,25 @@ function getValues() {
   //display the data in table
  //View
  function displayNumbers(fbArray) {
-    let className = "fbArray";
+    let className = " ";
     let templateRows = "";
   
     
     for (let i = 0; i < fbArray.length; i++) {
       let number = fbArray[i];
+
+      if(number === "Fizz"){
+        className="Fizz"
+      }
+      if(number === "Buzz"){
+        className="Buzz"
+      }
+      if(number === "FizzBuzz"){
+        className="FizzBuzz"
+      }
+      if(Number.isInteger(number)){
+        className="number"
+      }
     
       
   
